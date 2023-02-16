@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/prathima-personalPortfolio/static/css/main.1a565d8c.css",
+    "main.js": "/prathima-personalPortfolio/static/js/main.58f49e0d.js",
+    "static/js/787.158f8c9f.chunk.js": "/prathima-personalPortfolio/static/js/787.158f8c9f.chunk.js",
+    "static/media/helvetica-neu.ttf": "/prathima-personalPortfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo_sub.png": "/prathima-personalPortfolio/static/media/logo_sub.19f3ab25ab15fd848b30.png",
+    "static/media/LaBelleAurore.woff2": "/prathima-personalPortfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/prathima-personalPortfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/prathima-personalPortfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/prathima-personalPortfolio/index.html",
+    "main.1a565d8c.css.map": "/prathima-personalPortfolio/static/css/main.1a565d8c.css.map",
+    "main.58f49e0d.js.map": "/prathima-personalPortfolio/static/js/main.58f49e0d.js.map",
+    "787.158f8c9f.chunk.js.map": "/prathima-personalPortfolio/static/js/787.158f8c9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a565d8c.css",
+    "static/js/main.58f49e0d.js"
+  ]
+}

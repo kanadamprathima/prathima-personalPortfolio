@@ -71,6 +71,11 @@
         content: "ABOUT";
       }
     }
+    a.skills-Link {
+      &:after {
+        content: "SKILLS";
+      }
+    }
     a.projects-Link {
       &:after {
         content: "PROJECTS";

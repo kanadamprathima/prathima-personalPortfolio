@@ -10,6 +10,7 @@ import {
   faUser,
   faEnvelope,
   faSuitcase,
+  faGear,
 } from "@fortawesome/free-solid-svg-icons";
 import LogoSubtitle from "../../assets/images/logo_sub.png";
 const Sidebar = () => {
@@ -30,6 +31,14 @@ const Sidebar = () => {
           to="/about"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className={"skills-Link"}
+          to="/skills"
+        >
+          <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"

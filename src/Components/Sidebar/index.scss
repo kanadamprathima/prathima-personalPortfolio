@@ -31,8 +31,8 @@
       font-size: 25px;
       color: #4d4d4e;
       display: block;
-      line-height: 51px;
-      height: 51px;
+      line-height: 50px;
+      height: 45px;
       position: relative;
       text-decoration: none;
       i {
@@ -50,7 +50,7 @@
 
       &:after {
         content: "";
-        font-size: 9px;
+        font-size: 10px;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -107,7 +107,7 @@
       a {
         padding: 7px 0;
         display: block;
-        font-size: 15px;
+        font-size: 25px;
         line-height: 16px;
         &:hover svg {
           color: #ffd700;

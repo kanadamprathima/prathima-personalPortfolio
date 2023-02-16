@@ -5,7 +5,12 @@ import { Icon } from "react-icons-kit";
 import { linkedin } from "react-icons-kit/icomoon/linkedin";
 import { github } from "react-icons-kit/icomoon/github";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faSuitcase,
+} from "@fortawesome/free-solid-svg-icons";
 import LogoSubtitle from "../../assets/images/logo_sub.png";
 const Sidebar = () => {
   return (
@@ -25,6 +30,14 @@ const Sidebar = () => {
           to="/about"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className={"projects-Link"}
+          to="/projects"
+        >
+          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink
           exact="true"

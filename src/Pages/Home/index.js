@@ -26,11 +26,26 @@ const HomePage = () => {
     ".",
   ];
 
-  //   useEffect(() => {
+  // useEffect(() => {
+  //   const getTimeout = () => {
   //     return setTimeout(() => {
   //       setLetterClass("text-animate-hover");
   //     }, 4000);
-  //   }, []);
+  //   };
+  //   getTimeout();
+  // }, []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLetterClass("text-animate-hover");
+    }, 3000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  // useEffect(() => {
+  //   setLetterClass("text-animate-hover");
+  // }, []);
 
   return (
     <>

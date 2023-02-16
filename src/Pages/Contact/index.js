@@ -1,6 +1,6 @@
 import AnimatedLetters from "../../Components/AnimatedLetters";
 import "./index.scss";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 const ContactPage = () => {
@@ -24,6 +24,14 @@ const ContactPage = () => {
         }
       );
   };
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLetterClass("text-animate-hover");
+    }, 3000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
   return (
     <>
       <div className="container contact-page">

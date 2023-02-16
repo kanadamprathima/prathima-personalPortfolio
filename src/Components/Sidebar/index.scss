@@ -71,6 +71,11 @@
         content: "ABOUT";
       }
     }
+    a.projects-Link {
+      &:after {
+        content: "PROJECTS";
+      }
+    }
 
     a.contact-Link {
       &:after {
@@ -85,11 +90,11 @@
   }
   ul {
     position: absolute;
+    color: #4d4d4e;
     bottom: 20px;
     width: 100%;
     display: block;
     padding: 0;
-    color: #4d4d4e;
     list-style: none;
     text-align: center;
     margin: 0;
